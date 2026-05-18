@@ -160,6 +160,10 @@ main {
   background: var(--paper);
 }
 
+.vote-card.image-loading img {
+  opacity: 0.9;
+}
+
 .card-copy {
   display: grid;
   gap: 10px;

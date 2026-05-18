@@ -12,6 +12,8 @@ const state = {
   view: "swipe",
   drag: null,
   isRefreshing: false,
+  isVoting: false,
+  imageRenderId: 0,
   sessionId: getSessionId()
 };
 
@@ -78,6 +80,7 @@ async function initialize() {
   state.analytics = resultsPayload.analytics || state.analytics;
   rebuildDeck();
   renderAll();
+  preloadUpcomingImages();
   startResultsPolling();
 }
 
@@ -109,28 +112,82 @@ function renderCard() {
   const item = state.currentItem;
   const completed = state.votes.size;
   elements.progressLabel.textContent = `${completed} / ${state.items.length} voted`;
-  elements.undoButton.disabled = !state.lastVote;
+  updateActionButtons();
 
   if (!item) {
     elements.voteCard.hidden = true;
     elements.emptyState.hidden = false;
-    elements.noButton.disabled = true;
-    elements.yesButton.disabled = true;
+    updateActionButtons();
     return;
   }
 
   elements.voteCard.hidden = false;
   elements.emptyState.hidden = true;
-  elements.noButton.disabled = false;
-  elements.yesButton.disabled = false;
+  state.cardShownAt = Date.now();
+  updateActionButtons();
   resetCardPosition();
 
-  elements.cardImage.src = item.image;
+  renderCardImage(item);
   elements.cardImage.alt = `${item.name} cat photo`;
   elements.cardCategory.textContent = item.category;
   elements.cardTitle.textContent = item.name;
   elements.cardDescription.textContent = item.description;
   elements.cardCredit.textContent = creditText(item);
+}
+
+function updateActionButtons() {
+  const canVote = Boolean(state.currentItem) && !state.isVoting;
+  elements.noButton.disabled = !canVote;
+  elements.yesButton.disabled = !canVote;
+  elements.undoButton.disabled = !state.lastVote || state.isVoting;
+}
+
+function renderCardImage(item) {
+  const renderId = state.imageRenderId + 1;
+  state.imageRenderId = renderId;
+  elements.voteCard.classList.add("image-loading");
+  elements.cardImage.src = placeholderImage(item.name);
+
+  const image = new Image();
+  image.onload = () => {
+    if (state.imageRenderId !== renderId) {
+      return;
+    }
+    elements.cardImage.src = item.image;
+    elements.voteCard.classList.remove("image-loading");
+    preloadUpcomingImages(1);
+  };
+  image.onerror = () => {
+    if (state.imageRenderId === renderId) {
+      elements.voteCard.classList.remove("image-loading");
+    }
+  };
+  image.src = item.image;
+}
+
+function placeholderImage(label) {
+  const text = escapeHtml(label);
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(`
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+      <rect width="900" height="700" fill="#eef6f2"/>
+      <circle cx="450" cy="312" r="86" fill="#dde3ea"/>
+      <path d="M370 292 L405 220 L434 300 Z M466 300 L496 220 L532 292 Z" fill="#cbd5e1"/>
+      <circle cx="416" cy="318" r="12" fill="#64748b"/>
+      <circle cx="486" cy="318" r="12" fill="#64748b"/>
+      <path d="M432 364 Q450 378 468 364" stroke="#64748b" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <text x="450" y="482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#475467">Loading photo</text>
+      <text x="450" y="530" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#667085">${text}</text>
+    </svg>
+  `)}`;
+}
+
+function preloadUpcomingImages(offset = 0, count = 4) {
+  state.deck
+    .slice(state.currentIndex + offset, state.currentIndex + offset + count)
+    .forEach((item) => {
+      const image = new Image();
+      image.src = item.image;
+    });
 }
 
 function sortedResults() {
@@ -261,25 +318,46 @@ async function vote(choice) {
   }
 
   const item = state.currentItem;
+  const decisionMs = Date.now() - state.cardShownAt;
+  const restoreIndex = state.currentIndex;
   elements.noButton.disabled = true;
   elements.yesButton.disabled = true;
-
-  await api("/api/vote", {
-    method: "POST",
-    body: JSON.stringify({
-      itemId: item.id,
-      choice,
-      sessionId: state.sessionId,
-      decisionMs: Date.now() - state.cardShownAt
-    })
-  });
+  state.isVoting = true;
 
   state.votes.set(item.id, choice);
   state.lastVote = { item, choice };
   state.deck.splice(state.currentIndex, 1);
   state.currentItem = state.deck[state.currentIndex] || null;
-  await refreshResults();
   renderCard();
+
+  let shouldRenderAfterSave = false;
+  try {
+    await api("/api/vote", {
+      method: "POST",
+      body: JSON.stringify({
+        itemId: item.id,
+        choice,
+        sessionId: state.sessionId,
+        decisionMs
+      })
+    });
+    await refreshResults();
+  } catch (error) {
+    shouldRenderAfterSave = true;
+    state.votes.delete(item.id);
+    state.deck.splice(restoreIndex, 0, item);
+    state.currentIndex = restoreIndex;
+    state.currentItem = item;
+    state.lastVote = null;
+    elements.cardDescription.textContent = `Could not save vote: ${error.message}`;
+  } finally {
+    state.isVoting = false;
+    if (shouldRenderAfterSave) {
+      renderCard();
+    } else {
+      updateActionButtons();
+    }
+  }
 }
 
 async function undoLastVote() {
