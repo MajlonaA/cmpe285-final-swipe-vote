@@ -1,0 +1,802 @@
+[
+  {
+    "id": "cat-001",
+    "name": "Mochi the Cozy Cat",
+    "category": "Tabby",
+    "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-001.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-002",
+    "name": "Luna the Cozy Cat",
+    "category": "Tuxedo",
+    "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-002.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-003",
+    "name": "Nimbus the Cozy Cat",
+    "category": "Russian Blue",
+    "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-003.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-004",
+    "name": "Pepper the Cozy Cat",
+    "category": "Calico",
+    "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-004.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-005",
+    "name": "Biscuit the Cozy Cat",
+    "category": "Orange Tabby",
+    "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-005.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-006",
+    "name": "Willow the Cozy Cat",
+    "category": "Siamese Mix",
+    "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-006.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-007",
+    "name": "Maple the Cozy Cat",
+    "category": "Tortoiseshell",
+    "description": "A clever climber with a tiny mischievous streak. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-007.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-008",
+    "name": "Otis the Cozy Cat",
+    "category": "Maine Coon Mix",
+    "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-008.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-009",
+    "name": "Pixel the Cozy Cat",
+    "category": "Domestic Shorthair",
+    "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-009.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-010",
+    "name": "Clover the Cozy Cat",
+    "category": "Bombay Mix",
+    "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-010.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-011",
+    "name": "Juno the Cozy Cat",
+    "category": "Dilute Calico",
+    "description": "A sweet greeter who meets visitors at the door. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-011.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-012",
+    "name": "Bean the Cozy Cat",
+    "category": "Black Shorthair",
+    "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-012.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-013",
+    "name": "Hazel the Cozy Cat",
+    "category": "Bengal Mix",
+    "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-013.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-014",
+    "name": "Saffron the Cozy Cat",
+    "category": "Cream Tabby",
+    "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-014.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-015",
+    "name": "Tango the Cozy Cat",
+    "category": "Ginger Shorthair",
+    "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-015.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-016",
+    "name": "Miso the Cozy Cat",
+    "category": "Snowshoe Mix",
+    "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-016.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-017",
+    "name": "Olive the Cozy Cat",
+    "category": "Torbie",
+    "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-017.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-018",
+    "name": "Finn the Cozy Cat",
+    "category": "Gray Tabby",
+    "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-018.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-019",
+    "name": "Skye the Cozy Cat",
+    "category": "Ragdoll Mix",
+    "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-019.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-020",
+    "name": "Poppy the Cozy Cat",
+    "category": "White Shorthair",
+    "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who wants a calm evening companion.",
+    "image": "/images/cat-020.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-021",
+    "name": "Mochi the Playful Cat",
+    "category": "Tabby",
+    "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-021.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-022",
+    "name": "Luna the Playful Cat",
+    "category": "Tuxedo",
+    "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-022.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-023",
+    "name": "Nimbus the Playful Cat",
+    "category": "Russian Blue",
+    "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-023.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-024",
+    "name": "Pepper the Playful Cat",
+    "category": "Calico",
+    "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-024.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-025",
+    "name": "Biscuit the Playful Cat",
+    "category": "Orange Tabby",
+    "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-025.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-026",
+    "name": "Willow the Playful Cat",
+    "category": "Siamese Mix",
+    "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-026.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-027",
+    "name": "Maple the Playful Cat",
+    "category": "Tortoiseshell",
+    "description": "A clever climber with a tiny mischievous streak. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-027.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-028",
+    "name": "Otis the Playful Cat",
+    "category": "Maine Coon Mix",
+    "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-028.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-029",
+    "name": "Pixel the Playful Cat",
+    "category": "Domestic Shorthair",
+    "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-029.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-030",
+    "name": "Clover the Playful Cat",
+    "category": "Bombay Mix",
+    "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-030.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-031",
+    "name": "Juno the Playful Cat",
+    "category": "Dilute Calico",
+    "description": "A sweet greeter who meets visitors at the door. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-031.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-032",
+    "name": "Bean the Playful Cat",
+    "category": "Black Shorthair",
+    "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-032.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-033",
+    "name": "Hazel the Playful Cat",
+    "category": "Bengal Mix",
+    "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-033.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-034",
+    "name": "Saffron the Playful Cat",
+    "category": "Cream Tabby",
+    "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-034.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-035",
+    "name": "Tango the Playful Cat",
+    "category": "Ginger Shorthair",
+    "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-035.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-036",
+    "name": "Miso the Playful Cat",
+    "category": "Snowshoe Mix",
+    "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-036.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-037",
+    "name": "Olive the Playful Cat",
+    "category": "Torbie",
+    "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-037.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-038",
+    "name": "Finn the Playful Cat",
+    "category": "Gray Tabby",
+    "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-038.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-039",
+    "name": "Skye the Playful Cat",
+    "category": "Ragdoll Mix",
+    "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-039.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-040",
+    "name": "Poppy the Playful Cat",
+    "category": "White Shorthair",
+    "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who can schedule real daily play sessions.",
+    "image": "/images/cat-040.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-041",
+    "name": "Mochi the Social Cat",
+    "category": "Tabby",
+    "description": "A curious window watcher who follows sunbeams from room to room. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-041.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-042",
+    "name": "Luna the Social Cat",
+    "category": "Tuxedo",
+    "description": "A polite lap cat with a dramatic little white mustache. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-042.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-043",
+    "name": "Nimbus the Social Cat",
+    "category": "Russian Blue",
+    "description": "A quiet observer who warms up slowly and then stays close. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-043.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-044",
+    "name": "Pepper the Social Cat",
+    "category": "Calico",
+    "description": "A confident explorer with opinions about every cardboard box. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-044.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-045",
+    "name": "Biscuit the Social Cat",
+    "category": "Orange Tabby",
+    "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-045.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-046",
+    "name": "Willow the Social Cat",
+    "category": "Siamese Mix",
+    "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-046.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-047",
+    "name": "Maple the Social Cat",
+    "category": "Tortoiseshell",
+    "description": "A clever climber with a tiny mischievous streak. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-047.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-048",
+    "name": "Otis the Social Cat",
+    "category": "Maine Coon Mix",
+    "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-048.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-049",
+    "name": "Pixel the Social Cat",
+    "category": "Domestic Shorthair",
+    "description": "A fast little gamer-cat who chases every moving dot. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-049.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-050",
+    "name": "Clover the Social Cat",
+    "category": "Bombay Mix",
+    "description": "A sleek shadow who appears whenever snacks are opened. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-050.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-051",
+    "name": "Juno the Social Cat",
+    "category": "Dilute Calico",
+    "description": "A sweet greeter who meets visitors at the door. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-051.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-052",
+    "name": "Bean the Social Cat",
+    "category": "Black Shorthair",
+    "description": "A tiny house panther with excellent toy-mouse technique. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-052.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-053",
+    "name": "Hazel the Social Cat",
+    "category": "Bengal Mix",
+    "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-053.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-054",
+    "name": "Saffron the Social Cat",
+    "category": "Cream Tabby",
+    "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-054.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-055",
+    "name": "Tango the Social Cat",
+    "category": "Ginger Shorthair",
+    "description": "A bold hallway sprinter with a goofy chirp. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-055.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-056",
+    "name": "Miso the Social Cat",
+    "category": "Snowshoe Mix",
+    "description": "A gentle blue-eyed cat who loves quiet company. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-056.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-057",
+    "name": "Olive the Social Cat",
+    "category": "Torbie",
+    "description": "A smart problem solver who opens doors if you underestimate her. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-057.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-058",
+    "name": "Finn the Social Cat",
+    "category": "Gray Tabby",
+    "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-058.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-059",
+    "name": "Skye the Social Cat",
+    "category": "Ragdoll Mix",
+    "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-059.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-060",
+    "name": "Poppy the Social Cat",
+    "category": "White Shorthair",
+    "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with a home that enjoys greeting and gentle attention.",
+    "image": "/images/cat-060.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-061",
+    "name": "Mochi the Independent Cat",
+    "category": "Tabby",
+    "description": "A curious window watcher who follows sunbeams from room to room. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-061.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-062",
+    "name": "Luna the Independent Cat",
+    "category": "Tuxedo",
+    "description": "A polite lap cat with a dramatic little white mustache. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-062.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-063",
+    "name": "Nimbus the Independent Cat",
+    "category": "Russian Blue",
+    "description": "A quiet observer who warms up slowly and then stays close. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-063.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-064",
+    "name": "Pepper the Independent Cat",
+    "category": "Calico",
+    "description": "A confident explorer with opinions about every cardboard box. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-064.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-065",
+    "name": "Biscuit the Independent Cat",
+    "category": "Orange Tabby",
+    "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-065.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-066",
+    "name": "Willow the Independent Cat",
+    "category": "Siamese Mix",
+    "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-066.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-067",
+    "name": "Maple the Independent Cat",
+    "category": "Tortoiseshell",
+    "description": "A clever climber with a tiny mischievous streak. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-067.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-068",
+    "name": "Otis the Independent Cat",
+    "category": "Maine Coon Mix",
+    "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-068.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-069",
+    "name": "Pixel the Independent Cat",
+    "category": "Domestic Shorthair",
+    "description": "A fast little gamer-cat who chases every moving dot. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-069.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-070",
+    "name": "Clover the Independent Cat",
+    "category": "Bombay Mix",
+    "description": "A sleek shadow who appears whenever snacks are opened. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-070.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-071",
+    "name": "Juno the Independent Cat",
+    "category": "Dilute Calico",
+    "description": "A sweet greeter who meets visitors at the door. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-071.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-072",
+    "name": "Bean the Independent Cat",
+    "category": "Black Shorthair",
+    "description": "A tiny house panther with excellent toy-mouse technique. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-072.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-073",
+    "name": "Hazel the Independent Cat",
+    "category": "Bengal Mix",
+    "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-073.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-074",
+    "name": "Saffron the Independent Cat",
+    "category": "Cream Tabby",
+    "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-074.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-075",
+    "name": "Tango the Independent Cat",
+    "category": "Ginger Shorthair",
+    "description": "A bold hallway sprinter with a goofy chirp. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-075.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-076",
+    "name": "Miso the Independent Cat",
+    "category": "Snowshoe Mix",
+    "description": "A gentle blue-eyed cat who loves quiet company. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-076.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-077",
+    "name": "Olive the Independent Cat",
+    "category": "Torbie",
+    "description": "A smart problem solver who opens doors if you underestimate her. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-077.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-078",
+    "name": "Finn the Independent Cat",
+    "category": "Gray Tabby",
+    "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-078.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-079",
+    "name": "Skye the Independent Cat",
+    "category": "Ragdoll Mix",
+    "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-079.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-080",
+    "name": "Poppy the Independent Cat",
+    "category": "White Shorthair",
+    "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with patient people who respect space and routine.",
+    "image": "/images/cat-080.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-081",
+    "name": "Mochi the Cuddly Cat",
+    "category": "Tabby",
+    "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-081.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-082",
+    "name": "Luna the Cuddly Cat",
+    "category": "Tuxedo",
+    "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-082.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-083",
+    "name": "Nimbus the Cuddly Cat",
+    "category": "Russian Blue",
+    "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-083.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-084",
+    "name": "Pepper the Cuddly Cat",
+    "category": "Calico",
+    "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-084.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-085",
+    "name": "Biscuit the Cuddly Cat",
+    "category": "Orange Tabby",
+    "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-085.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-086",
+    "name": "Willow the Cuddly Cat",
+    "category": "Siamese Mix",
+    "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-086.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-087",
+    "name": "Maple the Cuddly Cat",
+    "category": "Tortoiseshell",
+    "description": "A clever climber with a tiny mischievous streak. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-087.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-088",
+    "name": "Otis the Cuddly Cat",
+    "category": "Maine Coon Mix",
+    "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-088.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-089",
+    "name": "Pixel the Cuddly Cat",
+    "category": "Domestic Shorthair",
+    "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-089.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-090",
+    "name": "Clover the Cuddly Cat",
+    "category": "Bombay Mix",
+    "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-090.svg",
+    "accent": "#4f46e5"
+  },
+  {
+    "id": "cat-091",
+    "name": "Juno the Cuddly Cat",
+    "category": "Dilute Calico",
+    "description": "A sweet greeter who meets visitors at the door. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-091.svg",
+    "accent": "#0f766e"
+  },
+  {
+    "id": "cat-092",
+    "name": "Bean the Cuddly Cat",
+    "category": "Black Shorthair",
+    "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-092.svg",
+    "accent": "#e11d48"
+  },
+  {
+    "id": "cat-093",
+    "name": "Hazel the Cuddly Cat",
+    "category": "Bengal Mix",
+    "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-093.svg",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "cat-094",
+    "name": "Saffron the Cuddly Cat",
+    "category": "Cream Tabby",
+    "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-094.svg",
+    "accent": "#d97706"
+  },
+  {
+    "id": "cat-095",
+    "name": "Tango the Cuddly Cat",
+    "category": "Ginger Shorthair",
+    "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-095.svg",
+    "accent": "#7c3aed"
+  },
+  {
+    "id": "cat-096",
+    "name": "Miso the Cuddly Cat",
+    "category": "Snowshoe Mix",
+    "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-096.svg",
+    "accent": "#15803d"
+  },
+  {
+    "id": "cat-097",
+    "name": "Olive the Cuddly Cat",
+    "category": "Torbie",
+    "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-097.svg",
+    "accent": "#db2777"
+  },
+  {
+    "id": "cat-098",
+    "name": "Finn the Cuddly Cat",
+    "category": "Gray Tabby",
+    "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-098.svg",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "cat-099",
+    "name": "Skye the Cuddly Cat",
+    "category": "Ragdoll Mix",
+    "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-099.svg",
+    "accent": "#ca8a04"
+  },
+  {
+    "id": "cat-100",
+    "name": "Poppy the Cuddly Cat",
+    "category": "White Shorthair",
+    "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who wants a close sofa and study buddy.",
+    "image": "/images/cat-100.svg",
+    "accent": "#4f46e5"
+  }
+]

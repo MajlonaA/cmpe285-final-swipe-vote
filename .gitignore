@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+.playwright-cli/
+data/votes.json
+FIRST_EIGHT_STUDY_GUIDE.md
+*.log

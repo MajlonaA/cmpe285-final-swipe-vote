@@ -1,0 +1,60 @@
+{
+  "votes": [
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-001",
+      "choice": "yes",
+      "decisionMs": 12482,
+      "createdAt": "2026-05-18T19:16:48.127Z",
+      "updatedAt": "2026-05-18T19:16:48.127Z"
+    },
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-002",
+      "choice": "yes",
+      "decisionMs": 21757,
+      "createdAt": "2026-05-18T19:16:57.400Z",
+      "updatedAt": "2026-05-18T19:16:57.400Z"
+    },
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-003",
+      "choice": "yes",
+      "decisionMs": 29443,
+      "createdAt": "2026-05-18T19:17:05.086Z",
+      "updatedAt": "2026-05-18T19:17:05.086Z"
+    },
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-004",
+      "choice": "no",
+      "decisionMs": 36347,
+      "createdAt": "2026-05-18T19:17:11.991Z",
+      "updatedAt": "2026-05-18T19:17:11.991Z"
+    },
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-005",
+      "choice": "yes",
+      "decisionMs": 38518,
+      "createdAt": "2026-05-18T19:17:14.161Z",
+      "updatedAt": "2026-05-18T19:17:14.161Z"
+    },
+    {
+      "sessionId": "91e07718b59c202e5aab4b43",
+      "itemId": "cat-006",
+      "choice": "no",
+      "decisionMs": 40163,
+      "createdAt": "2026-05-18T19:17:15.807Z",
+      "updatedAt": "2026-05-18T19:17:15.807Z"
+    }
+  ],
+  "analytics": {
+    "totalSwipes": 6,
+    "totalDecisionMs": 178710,
+    "decisionCount": 6,
+    "sessionIds": [
+      "91e07718b59c202e5aab4b43"
+    ]
+  }
+}

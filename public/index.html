@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Cat Match Swipe</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/styles.css?v=2">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Cat Match Swipe</p>
+          <h1>Find your cat match</h1>
+        </div>
+        <button class="icon-button" id="refreshButton" type="button" aria-label="Refresh results" title="Refresh results">
+          <span aria-hidden="true">↻</span>
+        </button>
+      </header>
+
+      <nav class="tabs" aria-label="Views">
+        <button class="tab active" data-view="swipe" type="button">Swipe</button>
+        <button class="tab" data-view="results" type="button">Results</button>
+        <button class="tab" data-view="matches" type="button">Matches</button>
+      </nav>
+
+      <main>
+        <section class="view active" id="swipeView" aria-live="polite">
+          <div class="progress-row">
+            <span id="progressLabel">Loading</span>
+            <span id="sessionLabel"></span>
+          </div>
+
+          <div class="deck-stage">
+            <article class="vote-card" id="voteCard">
+              <div class="decision-chip yes-chip">Yes</div>
+              <div class="decision-chip no-chip">No</div>
+              <img id="cardImage" alt="" draggable="false">
+              <div class="card-copy">
+                <p id="cardCategory"></p>
+                <h2 id="cardTitle">Loading cats</h2>
+                <p id="cardDescription"></p>
+              </div>
+            </article>
+
+            <div class="empty-state" id="emptyState" hidden>
+              <h2>Deck complete</h2>
+              <p>Your votes are saved on the server.</p>
+              <button class="primary-action" data-view-target="results" type="button">View results</button>
+            </div>
+          </div>
+
+          <div class="action-bar">
+            <button class="choice-button no" id="noButton" type="button" aria-label="Vote no">No</button>
+            <button class="choice-button undo" id="undoButton" type="button" aria-label="Undo last vote">Undo</button>
+            <button class="choice-button yes" id="yesButton" type="button" aria-label="Vote yes">Yes</button>
+          </div>
+        </section>
+
+        <section class="view" id="resultsView">
+          <div class="panel-header">
+            <h2>Live results</h2>
+            <select id="sortSelect" aria-label="Sort results">
+              <option value="most-loved">Most loved</option>
+              <option value="most-divisive">Most divisive</option>
+              <option value="most-votes">Most votes</option>
+              <option value="alphabetical">A to Z</option>
+              <option value="my-yes">My yes votes</option>
+            </select>
+          </div>
+          <div class="stats-strip" id="statsStrip"></div>
+          <ol class="result-list" id="resultList"></ol>
+        </section>
+
+        <section class="view" id="matchesView">
+          <div class="panel-header">
+            <h2>Your matches</h2>
+            <span class="match-rule">70%+ yes</span>
+          </div>
+          <div class="result-list match-list" id="matchList"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js?v=3"></script>
+  </body>
+</html>
