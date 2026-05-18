@@ -27,6 +27,7 @@ const elements = {
   cardCategory: document.querySelector("#cardCategory"),
   cardTitle: document.querySelector("#cardTitle"),
   cardDescription: document.querySelector("#cardDescription"),
+  cardCredit: document.querySelector("#cardCredit"),
   progressLabel: document.querySelector("#progressLabel"),
   sessionLabel: document.querySelector("#sessionLabel"),
   noButton: document.querySelector("#noButton"),
@@ -125,10 +126,11 @@ function renderCard() {
   resetCardPosition();
 
   elements.cardImage.src = item.image;
-  elements.cardImage.alt = `${item.name} generated visual`;
+  elements.cardImage.alt = `${item.name} cat photo`;
   elements.cardCategory.textContent = item.category;
   elements.cardTitle.textContent = item.name;
   elements.cardDescription.textContent = item.description;
+  elements.cardCredit.textContent = creditText(item);
 }
 
 function sortedResults() {
@@ -204,7 +206,7 @@ function formatDuration(milliseconds) {
 function resultMarkup(item) {
   return `
     <li class="result-card">
-      <img src="${item.image}" alt="${escapeHtml(item.name)} visual">
+      <img src="${item.image}" alt="${escapeHtml(item.name)} cat photo">
       <div class="result-copy">
         <div class="result-title">
           <h3>${escapeHtml(item.name)}</h3>
@@ -218,9 +220,14 @@ function resultMarkup(item) {
           <span>${item.no} no</span>
           <span>${item.total} total</span>
         </div>
+        <div class="result-credit">${escapeHtml(creditText(item))}</div>
       </div>
     </li>
   `;
+}
+
+function creditText(item) {
+  return item.imageCredit ? `Photo: ${item.imageCredit}` : "Photo source credited in README";
 }
 
 function escapeHtml(value) {

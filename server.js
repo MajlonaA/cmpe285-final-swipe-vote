@@ -189,6 +189,8 @@ function summarizeResults(items, votes) {
       name: item.name,
       category: item.category,
       image: item.image,
+      imageCredit: item.imageCredit,
+      imageSource: item.imageSource,
       yes: count.yes,
       no: count.no,
       total,

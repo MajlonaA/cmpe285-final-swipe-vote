@@ -166,7 +166,7 @@ main {
   padding: 18px;
 }
 
-.card-copy p:first-child {
+.card-category {
   color: var(--amber);
   font-size: 0.78rem;
   font-weight: 850;
@@ -179,10 +179,16 @@ main {
   line-height: 1.15;
 }
 
-.card-copy p:last-child {
+.card-description {
   color: #475467;
   font-size: 0.98rem;
   line-height: 1.45;
+}
+
+.card-credit {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 750;
 }
 
 .decision-chip {
@@ -418,6 +424,13 @@ select {
   margin-top: 7px;
   color: var(--muted);
   font-size: 0.76rem;
+  font-weight: 750;
+}
+
+.result-credit {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.68rem;
   font-weight: 750;
 }
 

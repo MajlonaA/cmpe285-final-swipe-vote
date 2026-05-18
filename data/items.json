@@ -4,7 +4,10 @@
     "name": "Mochi the Cozy Cat",
     "category": "Tabby",
     "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-001.svg",
+    "image": "https://cataas.com/cat/04eEQhDfAL8l5nt3?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "04eEQhDfAL8l5nt3",
     "accent": "#0f766e"
   },
   {
@@ -12,7 +15,10 @@
     "name": "Luna the Cozy Cat",
     "category": "Tuxedo",
     "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-002.svg",
+    "image": "https://cataas.com/cat/05Xd4JtN14983pns?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "05Xd4JtN14983pns",
     "accent": "#e11d48"
   },
   {
@@ -20,7 +26,10 @@
     "name": "Nimbus the Cozy Cat",
     "category": "Russian Blue",
     "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-003.svg",
+    "image": "https://cataas.com/cat/09wFxpacQzvf9jfM?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "09wFxpacQzvf9jfM",
     "accent": "#2563eb"
   },
   {
@@ -28,7 +37,10 @@
     "name": "Pepper the Cozy Cat",
     "category": "Calico",
     "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-004.svg",
+    "image": "https://cataas.com/cat/0B2g7aTANObiqPJJ?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0B2g7aTANObiqPJJ",
     "accent": "#d97706"
   },
   {
@@ -36,7 +48,10 @@
     "name": "Biscuit the Cozy Cat",
     "category": "Orange Tabby",
     "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-005.svg",
+    "image": "https://cataas.com/cat/0BTTVEVWXNyOgXYd?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0BTTVEVWXNyOgXYd",
     "accent": "#7c3aed"
   },
   {
@@ -44,7 +59,10 @@
     "name": "Willow the Cozy Cat",
     "category": "Siamese Mix",
     "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-006.svg",
+    "image": "https://cataas.com/cat/0C2bQ39x8kuhx31p?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0C2bQ39x8kuhx31p",
     "accent": "#15803d"
   },
   {
@@ -52,7 +70,10 @@
     "name": "Maple the Cozy Cat",
     "category": "Tortoiseshell",
     "description": "A clever climber with a tiny mischievous streak. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-007.svg",
+    "image": "https://cataas.com/cat/0EsIYDG0at0TPpPD?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0EsIYDG0at0TPpPD",
     "accent": "#db2777"
   },
   {
@@ -60,7 +81,10 @@
     "name": "Otis the Cozy Cat",
     "category": "Maine Coon Mix",
     "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-008.svg",
+    "image": "https://cataas.com/cat/0F0IKAPOdWiE755P?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0F0IKAPOdWiE755P",
     "accent": "#0891b2"
   },
   {
@@ -68,7 +92,10 @@
     "name": "Pixel the Cozy Cat",
     "category": "Domestic Shorthair",
     "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-009.svg",
+    "image": "https://cataas.com/cat/0GC9MRUAqxhBzPyA?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0GC9MRUAqxhBzPyA",
     "accent": "#ca8a04"
   },
   {
@@ -76,7 +103,10 @@
     "name": "Clover the Cozy Cat",
     "category": "Bombay Mix",
     "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-010.svg",
+    "image": "https://cataas.com/cat/0M0Lo3dsYft79xNd?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0M0Lo3dsYft79xNd",
     "accent": "#4f46e5"
   },
   {
@@ -84,7 +114,10 @@
     "name": "Juno the Cozy Cat",
     "category": "Dilute Calico",
     "description": "A sweet greeter who meets visitors at the door. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-011.svg",
+    "image": "https://cataas.com/cat/0mstmOIucwiN80jb?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0mstmOIucwiN80jb",
     "accent": "#0f766e"
   },
   {
@@ -92,7 +125,10 @@
     "name": "Bean the Cozy Cat",
     "category": "Black Shorthair",
     "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-012.svg",
+    "image": "https://cataas.com/cat/0mxliw1UgtFdDkU8?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0mxliw1UgtFdDkU8",
     "accent": "#e11d48"
   },
   {
@@ -100,7 +136,10 @@
     "name": "Hazel the Cozy Cat",
     "category": "Bengal Mix",
     "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-013.svg",
+    "image": "https://cataas.com/cat/0nnJxjVoMK6GVmRS?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0nnJxjVoMK6GVmRS",
     "accent": "#2563eb"
   },
   {
@@ -108,7 +147,10 @@
     "name": "Saffron the Cozy Cat",
     "category": "Cream Tabby",
     "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-014.svg",
+    "image": "https://cataas.com/cat/0oJmiPshaDZD54M8?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0oJmiPshaDZD54M8",
     "accent": "#d97706"
   },
   {
@@ -116,7 +158,10 @@
     "name": "Tango the Cozy Cat",
     "category": "Ginger Shorthair",
     "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-015.svg",
+    "image": "https://cataas.com/cat/0PJwXcTrNzNIzGBJ?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0PJwXcTrNzNIzGBJ",
     "accent": "#7c3aed"
   },
   {
@@ -124,7 +169,10 @@
     "name": "Miso the Cozy Cat",
     "category": "Snowshoe Mix",
     "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-016.svg",
+    "image": "https://cataas.com/cat/0RU7ZkgzyvWv8UJG?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0RU7ZkgzyvWv8UJG",
     "accent": "#15803d"
   },
   {
@@ -132,7 +180,10 @@
     "name": "Olive the Cozy Cat",
     "category": "Torbie",
     "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-017.svg",
+    "image": "https://cataas.com/cat/0TnOAMpokjANBFVk?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0TnOAMpokjANBFVk",
     "accent": "#db2777"
   },
   {
@@ -140,7 +191,10 @@
     "name": "Finn the Cozy Cat",
     "category": "Gray Tabby",
     "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-018.svg",
+    "image": "https://cataas.com/cat/0U4jE41oGuUWThFX?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0U4jE41oGuUWThFX",
     "accent": "#0891b2"
   },
   {
@@ -148,7 +202,10 @@
     "name": "Skye the Cozy Cat",
     "category": "Ragdoll Mix",
     "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-019.svg",
+    "image": "https://cataas.com/cat/0VlkBO6ValjaoeEw?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0VlkBO6ValjaoeEw",
     "accent": "#ca8a04"
   },
   {
@@ -156,7 +213,10 @@
     "name": "Poppy the Cozy Cat",
     "category": "White Shorthair",
     "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who wants a calm evening companion.",
-    "image": "/images/cat-020.svg",
+    "image": "https://cataas.com/cat/0w0AIO9enndfLoko?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0w0AIO9enndfLoko",
     "accent": "#4f46e5"
   },
   {
@@ -164,7 +224,10 @@
     "name": "Mochi the Playful Cat",
     "category": "Tabby",
     "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-021.svg",
+    "image": "https://cataas.com/cat/0wKeoafTJoIbcem8?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0wKeoafTJoIbcem8",
     "accent": "#0f766e"
   },
   {
@@ -172,7 +235,10 @@
     "name": "Luna the Playful Cat",
     "category": "Tuxedo",
     "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-022.svg",
+    "image": "https://cataas.com/cat/0wPxI2kqnJ4DoAI8?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0wPxI2kqnJ4DoAI8",
     "accent": "#e11d48"
   },
   {
@@ -180,7 +246,10 @@
     "name": "Nimbus the Playful Cat",
     "category": "Russian Blue",
     "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-023.svg",
+    "image": "https://cataas.com/cat/0XykxsO1fUAZRtPp?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0XykxsO1fUAZRtPp",
     "accent": "#2563eb"
   },
   {
@@ -188,7 +257,10 @@
     "name": "Pepper the Playful Cat",
     "category": "Calico",
     "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-024.svg",
+    "image": "https://cataas.com/cat/0y2qESHWnriH1CyH?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0y2qESHWnriH1CyH",
     "accent": "#d97706"
   },
   {
@@ -196,7 +268,10 @@
     "name": "Biscuit the Playful Cat",
     "category": "Orange Tabby",
     "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-025.svg",
+    "image": "https://cataas.com/cat/0ycVeWWOWgDcGsYC?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0ycVeWWOWgDcGsYC",
     "accent": "#7c3aed"
   },
   {
@@ -204,7 +279,10 @@
     "name": "Willow the Playful Cat",
     "category": "Siamese Mix",
     "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-026.svg",
+    "image": "https://cataas.com/cat/0YOo8tXUKraccqJl?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0YOo8tXUKraccqJl",
     "accent": "#15803d"
   },
   {
@@ -212,7 +290,10 @@
     "name": "Maple the Playful Cat",
     "category": "Tortoiseshell",
     "description": "A clever climber with a tiny mischievous streak. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-027.svg",
+    "image": "https://cataas.com/cat/0ztFbDrgDV2K7yJ1?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "0ztFbDrgDV2K7yJ1",
     "accent": "#db2777"
   },
   {
@@ -220,7 +301,10 @@
     "name": "Otis the Playful Cat",
     "category": "Maine Coon Mix",
     "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-028.svg",
+    "image": "https://cataas.com/cat/11yW0nVicWb0fZzo?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "11yW0nVicWb0fZzo",
     "accent": "#0891b2"
   },
   {
@@ -228,7 +312,10 @@
     "name": "Pixel the Playful Cat",
     "category": "Domestic Shorthair",
     "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-029.svg",
+    "image": "https://cataas.com/cat/14ksbtRkMqKUHxfY?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "14ksbtRkMqKUHxfY",
     "accent": "#ca8a04"
   },
   {
@@ -236,7 +323,10 @@
     "name": "Clover the Playful Cat",
     "category": "Bombay Mix",
     "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-030.svg",
+    "image": "https://cataas.com/cat/18MD6byVC1yKGpXp?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "18MD6byVC1yKGpXp",
     "accent": "#4f46e5"
   },
   {
@@ -244,7 +334,10 @@
     "name": "Juno the Playful Cat",
     "category": "Dilute Calico",
     "description": "A sweet greeter who meets visitors at the door. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-031.svg",
+    "image": "https://cataas.com/cat/18T0wqXpU3OiGrUb?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "18T0wqXpU3OiGrUb",
     "accent": "#0f766e"
   },
   {
@@ -252,7 +345,10 @@
     "name": "Bean the Playful Cat",
     "category": "Black Shorthair",
     "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-032.svg",
+    "image": "https://cataas.com/cat/19Ykh6wwZdgIEL2D?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "19Ykh6wwZdgIEL2D",
     "accent": "#e11d48"
   },
   {
@@ -260,7 +356,10 @@
     "name": "Hazel the Playful Cat",
     "category": "Bengal Mix",
     "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-033.svg",
+    "image": "https://cataas.com/cat/1AKMzDtX4nlk6w5I?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1AKMzDtX4nlk6w5I",
     "accent": "#2563eb"
   },
   {
@@ -268,7 +367,10 @@
     "name": "Saffron the Playful Cat",
     "category": "Cream Tabby",
     "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-034.svg",
+    "image": "https://cataas.com/cat/1ANDs65qm2hR9o55?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1ANDs65qm2hR9o55",
     "accent": "#d97706"
   },
   {
@@ -276,7 +378,10 @@
     "name": "Tango the Playful Cat",
     "category": "Ginger Shorthair",
     "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-035.svg",
+    "image": "https://cataas.com/cat/1bJraW0IwSPm3MVd?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1bJraW0IwSPm3MVd",
     "accent": "#7c3aed"
   },
   {
@@ -284,7 +389,10 @@
     "name": "Miso the Playful Cat",
     "category": "Snowshoe Mix",
     "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-036.svg",
+    "image": "https://cataas.com/cat/1CF7xZmlX0t8QpgP?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1CF7xZmlX0t8QpgP",
     "accent": "#15803d"
   },
   {
@@ -292,7 +400,10 @@
     "name": "Olive the Playful Cat",
     "category": "Torbie",
     "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-037.svg",
+    "image": "https://cataas.com/cat/1ddeGQUlgfQggW6N?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1ddeGQUlgfQggW6N",
     "accent": "#db2777"
   },
   {
@@ -300,7 +411,10 @@
     "name": "Finn the Playful Cat",
     "category": "Gray Tabby",
     "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-038.svg",
+    "image": "https://cataas.com/cat/1DrcyohjhwcNaRIz?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1DrcyohjhwcNaRIz",
     "accent": "#0891b2"
   },
   {
@@ -308,7 +422,10 @@
     "name": "Skye the Playful Cat",
     "category": "Ragdoll Mix",
     "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-039.svg",
+    "image": "https://cataas.com/cat/1DvnD0NaGHwHMoml?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1DvnD0NaGHwHMoml",
     "accent": "#ca8a04"
   },
   {
@@ -316,7 +433,10 @@
     "name": "Poppy the Playful Cat",
     "category": "White Shorthair",
     "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who can schedule real daily play sessions.",
-    "image": "/images/cat-040.svg",
+    "image": "https://cataas.com/cat/1eGEsddyKNwtBJFP?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1eGEsddyKNwtBJFP",
     "accent": "#4f46e5"
   },
   {
@@ -324,7 +444,10 @@
     "name": "Mochi the Social Cat",
     "category": "Tabby",
     "description": "A curious window watcher who follows sunbeams from room to room. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-041.svg",
+    "image": "https://cataas.com/cat/1Egt9OiLoKACJHPw?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1Egt9OiLoKACJHPw",
     "accent": "#0f766e"
   },
   {
@@ -332,7 +455,10 @@
     "name": "Luna the Social Cat",
     "category": "Tuxedo",
     "description": "A polite lap cat with a dramatic little white mustache. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-042.svg",
+    "image": "https://cataas.com/cat/1frqP6ajw0JzkR1o?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1frqP6ajw0JzkR1o",
     "accent": "#e11d48"
   },
   {
@@ -340,7 +466,10 @@
     "name": "Nimbus the Social Cat",
     "category": "Russian Blue",
     "description": "A quiet observer who warms up slowly and then stays close. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-043.svg",
+    "image": "https://cataas.com/cat/1gROXVBHMQ8nLxCQ?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1gROXVBHMQ8nLxCQ",
     "accent": "#2563eb"
   },
   {
@@ -348,7 +477,10 @@
     "name": "Pepper the Social Cat",
     "category": "Calico",
     "description": "A confident explorer with opinions about every cardboard box. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-044.svg",
+    "image": "https://cataas.com/cat/1ihNtm9HkcOub9Li?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1ihNtm9HkcOub9Li",
     "accent": "#d97706"
   },
   {
@@ -356,7 +488,10 @@
     "name": "Biscuit the Social Cat",
     "category": "Orange Tabby",
     "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-045.svg",
+    "image": "https://cataas.com/cat/1JcOo3LnevDdZlcq?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1JcOo3LnevDdZlcq",
     "accent": "#7c3aed"
   },
   {
@@ -364,7 +499,10 @@
     "name": "Willow the Social Cat",
     "category": "Siamese Mix",
     "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-046.svg",
+    "image": "https://cataas.com/cat/1KCTvPEcpY7ryO34?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1KCTvPEcpY7ryO34",
     "accent": "#15803d"
   },
   {
@@ -372,7 +510,10 @@
     "name": "Maple the Social Cat",
     "category": "Tortoiseshell",
     "description": "A clever climber with a tiny mischievous streak. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-047.svg",
+    "image": "https://cataas.com/cat/1KeQpy7eHqi0SFmc?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1KeQpy7eHqi0SFmc",
     "accent": "#db2777"
   },
   {
@@ -380,7 +521,10 @@
     "name": "Otis the Social Cat",
     "category": "Maine Coon Mix",
     "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-048.svg",
+    "image": "https://cataas.com/cat/1KSwqj0a2mTz5ZrF?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1KSwqj0a2mTz5ZrF",
     "accent": "#0891b2"
   },
   {
@@ -388,7 +532,10 @@
     "name": "Pixel the Social Cat",
     "category": "Domestic Shorthair",
     "description": "A fast little gamer-cat who chases every moving dot. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-049.svg",
+    "image": "https://cataas.com/cat/1LlIgMhb3DfoW4qw?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1LlIgMhb3DfoW4qw",
     "accent": "#ca8a04"
   },
   {
@@ -396,7 +543,10 @@
     "name": "Clover the Social Cat",
     "category": "Bombay Mix",
     "description": "A sleek shadow who appears whenever snacks are opened. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-050.svg",
+    "image": "https://cataas.com/cat/1N2AH31jiY6N9TYc?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1N2AH31jiY6N9TYc",
     "accent": "#4f46e5"
   },
   {
@@ -404,7 +554,10 @@
     "name": "Juno the Social Cat",
     "category": "Dilute Calico",
     "description": "A sweet greeter who meets visitors at the door. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-051.svg",
+    "image": "https://cataas.com/cat/1NMuf7YAebEz6VTD?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1NMuf7YAebEz6VTD",
     "accent": "#0f766e"
   },
   {
@@ -412,7 +565,10 @@
     "name": "Bean the Social Cat",
     "category": "Black Shorthair",
     "description": "A tiny house panther with excellent toy-mouse technique. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-052.svg",
+    "image": "https://cataas.com/cat/1ntkA1kLWffNS2xN?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1ntkA1kLWffNS2xN",
     "accent": "#e11d48"
   },
   {
@@ -420,7 +576,10 @@
     "name": "Hazel the Social Cat",
     "category": "Bengal Mix",
     "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-053.svg",
+    "image": "https://cataas.com/cat/1pV0B3MW24cNSOHg?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1pV0B3MW24cNSOHg",
     "accent": "#2563eb"
   },
   {
@@ -428,7 +587,10 @@
     "name": "Saffron the Social Cat",
     "category": "Cream Tabby",
     "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-054.svg",
+    "image": "https://cataas.com/cat/1q1Ce6mM714NrMKf?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1q1Ce6mM714NrMKf",
     "accent": "#d97706"
   },
   {
@@ -436,7 +598,10 @@
     "name": "Tango the Social Cat",
     "category": "Ginger Shorthair",
     "description": "A bold hallway sprinter with a goofy chirp. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-055.svg",
+    "image": "https://cataas.com/cat/1si02A2ZNdeNH3yo?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1si02A2ZNdeNH3yo",
     "accent": "#7c3aed"
   },
   {
@@ -444,7 +609,10 @@
     "name": "Miso the Social Cat",
     "category": "Snowshoe Mix",
     "description": "A gentle blue-eyed cat who loves quiet company. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-056.svg",
+    "image": "https://cataas.com/cat/1sUjl4nEmh9OHwJz?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1sUjl4nEmh9OHwJz",
     "accent": "#15803d"
   },
   {
@@ -452,7 +620,10 @@
     "name": "Olive the Social Cat",
     "category": "Torbie",
     "description": "A smart problem solver who opens doors if you underestimate her. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-057.svg",
+    "image": "https://cataas.com/cat/1t9Z9QMPYhu5gBDV?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1t9Z9QMPYhu5gBDV",
     "accent": "#db2777"
   },
   {
@@ -460,7 +631,10 @@
     "name": "Finn the Social Cat",
     "category": "Gray Tabby",
     "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-058.svg",
+    "image": "https://cataas.com/cat/1TYt4A7YqwaeMUEF?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1TYt4A7YqwaeMUEF",
     "accent": "#0891b2"
   },
   {
@@ -468,7 +642,10 @@
     "name": "Skye the Social Cat",
     "category": "Ragdoll Mix",
     "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-059.svg",
+    "image": "https://cataas.com/cat/1wpap8yckt96vOoU?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1wpap8yckt96vOoU",
     "accent": "#ca8a04"
   },
   {
@@ -476,7 +653,10 @@
     "name": "Poppy the Social Cat",
     "category": "White Shorthair",
     "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with a home that enjoys greeting and gentle attention.",
-    "image": "/images/cat-060.svg",
+    "image": "https://cataas.com/cat/1y0sv9lnCIIiOiiT?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1y0sv9lnCIIiOiiT",
     "accent": "#4f46e5"
   },
   {
@@ -484,7 +664,10 @@
     "name": "Mochi the Independent Cat",
     "category": "Tabby",
     "description": "A curious window watcher who follows sunbeams from room to room. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-061.svg",
+    "image": "https://cataas.com/cat/1Y3dpssxcbHPEkfO?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1Y3dpssxcbHPEkfO",
     "accent": "#0f766e"
   },
   {
@@ -492,7 +675,10 @@
     "name": "Luna the Independent Cat",
     "category": "Tuxedo",
     "description": "A polite lap cat with a dramatic little white mustache. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-062.svg",
+    "image": "https://cataas.com/cat/1Y7TMLfxRN6HmCv0?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1Y7TMLfxRN6HmCv0",
     "accent": "#e11d48"
   },
   {
@@ -500,7 +686,10 @@
     "name": "Nimbus the Independent Cat",
     "category": "Russian Blue",
     "description": "A quiet observer who warms up slowly and then stays close. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-063.svg",
+    "image": "https://cataas.com/cat/1ZJqBeUSx5hXK3J8?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "1ZJqBeUSx5hXK3J8",
     "accent": "#2563eb"
   },
   {
@@ -508,7 +697,10 @@
     "name": "Pepper the Independent Cat",
     "category": "Calico",
     "description": "A confident explorer with opinions about every cardboard box. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-064.svg",
+    "image": "https://cataas.com/cat/22aAuf1dsGT4uSOi?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "22aAuf1dsGT4uSOi",
     "accent": "#d97706"
   },
   {
@@ -516,7 +708,10 @@
     "name": "Biscuit the Independent Cat",
     "category": "Orange Tabby",
     "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-065.svg",
+    "image": "https://cataas.com/cat/22tTAaFI1Q33YBGO?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "22tTAaFI1Q33YBGO",
     "accent": "#7c3aed"
   },
   {
@@ -524,7 +719,10 @@
     "name": "Willow the Independent Cat",
     "category": "Siamese Mix",
     "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-066.svg",
+    "image": "https://cataas.com/cat/24WlaURCbtQyC5qN?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "24WlaURCbtQyC5qN",
     "accent": "#15803d"
   },
   {
@@ -532,7 +730,10 @@
     "name": "Maple the Independent Cat",
     "category": "Tortoiseshell",
     "description": "A clever climber with a tiny mischievous streak. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-067.svg",
+    "image": "https://cataas.com/cat/25esBUofRVePPAN5?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "25esBUofRVePPAN5",
     "accent": "#db2777"
   },
   {
@@ -540,7 +741,10 @@
     "name": "Otis the Independent Cat",
     "category": "Maine Coon Mix",
     "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-068.svg",
+    "image": "https://cataas.com/cat/28ZtVybuyptnWzTM?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "28ZtVybuyptnWzTM",
     "accent": "#0891b2"
   },
   {
@@ -548,7 +752,10 @@
     "name": "Pixel the Independent Cat",
     "category": "Domestic Shorthair",
     "description": "A fast little gamer-cat who chases every moving dot. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-069.svg",
+    "image": "https://cataas.com/cat/299YJTAQz9R6cfGP?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "299YJTAQz9R6cfGP",
     "accent": "#ca8a04"
   },
   {
@@ -556,7 +763,10 @@
     "name": "Clover the Independent Cat",
     "category": "Bombay Mix",
     "description": "A sleek shadow who appears whenever snacks are opened. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-070.svg",
+    "image": "https://cataas.com/cat/2AjkEyDta2fk44NE?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2AjkEyDta2fk44NE",
     "accent": "#4f46e5"
   },
   {
@@ -564,7 +774,10 @@
     "name": "Juno the Independent Cat",
     "category": "Dilute Calico",
     "description": "A sweet greeter who meets visitors at the door. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-071.svg",
+    "image": "https://cataas.com/cat/2Bb8z8bR1w5EFHhz?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2Bb8z8bR1w5EFHhz",
     "accent": "#0f766e"
   },
   {
@@ -572,7 +785,10 @@
     "name": "Bean the Independent Cat",
     "category": "Black Shorthair",
     "description": "A tiny house panther with excellent toy-mouse technique. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-072.svg",
+    "image": "https://cataas.com/cat/2bnPzTo1hBCSo4rz?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2bnPzTo1hBCSo4rz",
     "accent": "#e11d48"
   },
   {
@@ -580,7 +796,10 @@
     "name": "Hazel the Independent Cat",
     "category": "Bengal Mix",
     "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-073.svg",
+    "image": "https://cataas.com/cat/2bPYDRuvU70sbgja?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2bPYDRuvU70sbgja",
     "accent": "#2563eb"
   },
   {
@@ -588,7 +807,10 @@
     "name": "Saffron the Independent Cat",
     "category": "Cream Tabby",
     "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-074.svg",
+    "image": "https://cataas.com/cat/2ChLbdjUjjwehaHV?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2ChLbdjUjjwehaHV",
     "accent": "#d97706"
   },
   {
@@ -596,7 +818,10 @@
     "name": "Tango the Independent Cat",
     "category": "Ginger Shorthair",
     "description": "A bold hallway sprinter with a goofy chirp. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-075.svg",
+    "image": "https://cataas.com/cat/2e0FOizQ3iNfwgMh?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2e0FOizQ3iNfwgMh",
     "accent": "#7c3aed"
   },
   {
@@ -604,7 +829,10 @@
     "name": "Miso the Independent Cat",
     "category": "Snowshoe Mix",
     "description": "A gentle blue-eyed cat who loves quiet company. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-076.svg",
+    "image": "https://cataas.com/cat/2EGeQU9fUQSmO2Te?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2EGeQU9fUQSmO2Te",
     "accent": "#15803d"
   },
   {
@@ -612,7 +840,10 @@
     "name": "Olive the Independent Cat",
     "category": "Torbie",
     "description": "A smart problem solver who opens doors if you underestimate her. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-077.svg",
+    "image": "https://cataas.com/cat/2eXYJhGolHqOAKaM?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2eXYJhGolHqOAKaM",
     "accent": "#db2777"
   },
   {
@@ -620,7 +851,10 @@
     "name": "Finn the Independent Cat",
     "category": "Gray Tabby",
     "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-078.svg",
+    "image": "https://cataas.com/cat/2gakTsWOt6sq3pqS?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2gakTsWOt6sq3pqS",
     "accent": "#0891b2"
   },
   {
@@ -628,7 +862,10 @@
     "name": "Skye the Independent Cat",
     "category": "Ragdoll Mix",
     "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-079.svg",
+    "image": "https://cataas.com/cat/2ihCjEch6BVdv8Yx?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2ihCjEch6BVdv8Yx",
     "accent": "#ca8a04"
   },
   {
@@ -636,7 +873,10 @@
     "name": "Poppy the Independent Cat",
     "category": "White Shorthair",
     "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with patient people who respect space and routine.",
-    "image": "/images/cat-080.svg",
+    "image": "https://cataas.com/cat/2kKhMn9BCAhMem6V?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2kKhMn9BCAhMem6V",
     "accent": "#4f46e5"
   },
   {
@@ -644,7 +884,10 @@
     "name": "Mochi the Cuddly Cat",
     "category": "Tabby",
     "description": "A curious window watcher who follows sunbeams from room to room. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-081.svg",
+    "image": "https://cataas.com/cat/2LC9Ne6SIMXnIdXZ?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2LC9Ne6SIMXnIdXZ",
     "accent": "#0f766e"
   },
   {
@@ -652,7 +895,10 @@
     "name": "Luna the Cuddly Cat",
     "category": "Tuxedo",
     "description": "A polite lap cat with a dramatic little white mustache. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-082.svg",
+    "image": "https://cataas.com/cat/2lnVocnpd25cUka7?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2lnVocnpd25cUka7",
     "accent": "#e11d48"
   },
   {
@@ -660,7 +906,10 @@
     "name": "Nimbus the Cuddly Cat",
     "category": "Russian Blue",
     "description": "A quiet observer who warms up slowly and then stays close. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-083.svg",
+    "image": "https://cataas.com/cat/2lo2luOySDGPFCng?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2lo2luOySDGPFCng",
     "accent": "#2563eb"
   },
   {
@@ -668,7 +917,10 @@
     "name": "Pepper the Cuddly Cat",
     "category": "Calico",
     "description": "A confident explorer with opinions about every cardboard box. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-084.svg",
+    "image": "https://cataas.com/cat/2LTXz5STKmTHCESu?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2LTXz5STKmTHCESu",
     "accent": "#d97706"
   },
   {
@@ -676,7 +928,10 @@
     "name": "Biscuit the Cuddly Cat",
     "category": "Orange Tabby",
     "description": "A biscuit-making specialist with a loud breakfast announcement. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-085.svg",
+    "image": "https://cataas.com/cat/2MLfyVlPy09vZK5c?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2MLfyVlPy09vZK5c",
     "accent": "#7c3aed"
   },
   {
@@ -684,7 +939,10 @@
     "name": "Willow the Cuddly Cat",
     "category": "Siamese Mix",
     "description": "A talkative companion who likes puzzle toys and shoulder perches. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-086.svg",
+    "image": "https://cataas.com/cat/2n2is2NLgWTV1smC?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2n2is2NLgWTV1smC",
     "accent": "#15803d"
   },
   {
@@ -692,7 +950,10 @@
     "name": "Maple the Cuddly Cat",
     "category": "Tortoiseshell",
     "description": "A clever climber with a tiny mischievous streak. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-087.svg",
+    "image": "https://cataas.com/cat/2PhQ92iE2EVNF0ot?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2PhQ92iE2EVNF0ot",
     "accent": "#db2777"
   },
   {
@@ -700,7 +961,10 @@
     "name": "Otis the Cuddly Cat",
     "category": "Maine Coon Mix",
     "description": "A gentle giant who prefers slow blinks and soft blankets. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-088.svg",
+    "image": "https://cataas.com/cat/2R4fwl2tPwmSwvp1?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2R4fwl2tPwmSwvp1",
     "accent": "#0891b2"
   },
   {
@@ -708,7 +972,10 @@
     "name": "Pixel the Cuddly Cat",
     "category": "Domestic Shorthair",
     "description": "A fast little gamer-cat who chases every moving dot. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-089.svg",
+    "image": "https://cataas.com/cat/2tElvyC3TBtGfWsp?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2tElvyC3TBtGfWsp",
     "accent": "#ca8a04"
   },
   {
@@ -716,7 +983,10 @@
     "name": "Clover the Cuddly Cat",
     "category": "Bombay Mix",
     "description": "A sleek shadow who appears whenever snacks are opened. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-090.svg",
+    "image": "https://cataas.com/cat/2TZUgzYXLM9SzFmX?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2TZUgzYXLM9SzFmX",
     "accent": "#4f46e5"
   },
   {
@@ -724,7 +994,10 @@
     "name": "Juno the Cuddly Cat",
     "category": "Dilute Calico",
     "description": "A sweet greeter who meets visitors at the door. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-091.svg",
+    "image": "https://cataas.com/cat/2uWNSTyOg2IVBcAL?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2uWNSTyOg2IVBcAL",
     "accent": "#0f766e"
   },
   {
@@ -732,7 +1005,10 @@
     "name": "Bean the Cuddly Cat",
     "category": "Black Shorthair",
     "description": "A tiny house panther with excellent toy-mouse technique. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-092.svg",
+    "image": "https://cataas.com/cat/2VBf3b9iHaTY9vlG?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2VBf3b9iHaTY9vlG",
     "accent": "#e11d48"
   },
   {
@@ -740,7 +1016,10 @@
     "name": "Hazel the Cuddly Cat",
     "category": "Bengal Mix",
     "description": "A high-energy jumper who needs shelves, playtime, and praise. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-093.svg",
+    "image": "https://cataas.com/cat/2VcSUtyyFnm45353?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2VcSUtyyFnm45353",
     "accent": "#2563eb"
   },
   {
@@ -748,7 +1027,10 @@
     "name": "Saffron the Cuddly Cat",
     "category": "Cream Tabby",
     "description": "A mellow nap expert who likes calm rooms and warm laundry. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-094.svg",
+    "image": "https://cataas.com/cat/2VgBUv9MaBwk5qnK?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2VgBUv9MaBwk5qnK",
     "accent": "#d97706"
   },
   {
@@ -756,7 +1038,10 @@
     "name": "Tango the Cuddly Cat",
     "category": "Ginger Shorthair",
     "description": "A bold hallway sprinter with a goofy chirp. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-095.svg",
+    "image": "https://cataas.com/cat/2wfWxhA4oS7bGUFW?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2wfWxhA4oS7bGUFW",
     "accent": "#7c3aed"
   },
   {
@@ -764,7 +1049,10 @@
     "name": "Miso the Cuddly Cat",
     "category": "Snowshoe Mix",
     "description": "A gentle blue-eyed cat who loves quiet company. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-096.svg",
+    "image": "https://cataas.com/cat/2xkeeR99sD9uaqre?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2xkeeR99sD9uaqre",
     "accent": "#15803d"
   },
   {
@@ -772,7 +1060,10 @@
     "name": "Olive the Cuddly Cat",
     "category": "Torbie",
     "description": "A smart problem solver who opens doors if you underestimate her. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-097.svg",
+    "image": "https://cataas.com/cat/2xsQpqvspMC4OjXs?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2xsQpqvspMC4OjXs",
     "accent": "#db2777"
   },
   {
@@ -780,7 +1071,10 @@
     "name": "Finn the Cuddly Cat",
     "category": "Gray Tabby",
     "description": "A loyal desk buddy for homework sessions and late-night coding. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-098.svg",
+    "image": "https://cataas.com/cat/2XYz3V6PILrrvZn6?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2XYz3V6PILrrvZn6",
     "accent": "#0891b2"
   },
   {
@@ -788,7 +1082,10 @@
     "name": "Skye the Cuddly Cat",
     "category": "Ragdoll Mix",
     "description": "A floppy cuddle fan who trusts slowly and deeply. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-099.svg",
+    "image": "https://cataas.com/cat/2y0sOWAIxL640wjB?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "2y0sOWAIxL640wjB",
     "accent": "#ca8a04"
   },
   {
@@ -796,7 +1093,10 @@
     "name": "Poppy the Cuddly Cat",
     "category": "White Shorthair",
     "description": "A bright, tidy cat who enjoys feather wands and high perches. Best matched with someone who wants a close sofa and study buddy.",
-    "image": "/images/cat-100.svg",
+    "image": "https://cataas.com/cat/37guCJ2aCCt3m360?width=900&height=700",
+    "imageCredit": "CATAAS",
+    "imageSource": "https://cataas.com",
+    "externalPhotoId": "37guCJ2aCCt3m360",
     "accent": "#4f46e5"
   }
 ]

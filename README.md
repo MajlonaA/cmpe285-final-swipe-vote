@@ -16,7 +16,7 @@ The app requires Node 20 or newer and has no external npm dependencies. It uses 
 To add a new profile without changing code:
 
 ```bash
-npm run add-item -- "Nova the Curious Cat" "Domestic Shorthair" "A gentle explorer who likes shelves and string toys." "#0f766e"
+npm run add-item -- "Nova the Curious Cat" "Domestic Shorthair" "A gentle explorer who likes shelves and string toys." "04eEQhDfAL8l5nt3" "#0f766e"
 ```
 
 ## Architecture
@@ -28,7 +28,7 @@ The backend is `server.js`. It keeps the source of truth in `data/votes.json`, w
 ## Completed Requirements
 
 - 100 distinct cat profiles seeded by `scripts/seed.js`
-- Generated cat-card image URL for every profile through `/images/:id.svg`
+- Real cat photo URL for every profile
 - Swipe-card UI with left/no, right/yes, card tilt, color hint, and smooth transitions
 - Tap buttons for yes and no
 - Downward swipe or tab opens results
@@ -38,6 +38,10 @@ The backend is `server.js`. It keeps the source of truth in `data/votes.json`, w
 - Idempotent vote deduplication by anonymous session and item
 - End-of-deck state
 - Stretch: anonymous user identity, undo last swipe, matches view, polling-based results refresh, seed/admin scripts, and basic analytics
+
+## Image Credits
+
+All seeded cat photos come from [CATAAS: Cat as a Service](https://cataas.com). The fixture stores the CATAAS photo id for each item in `externalPhotoId`, uses stable `https://cataas.com/cat/:id` image URLs, and displays `Photo: CATAAS` in the app. New items can use either a CATAAS photo id or a fully qualified image URL; user-provided URLs should be credited to their original source before submission.
 
 ## Screenshots
 
@@ -49,10 +53,10 @@ The `screenshots/` folder contains three 390 x 844 screenshots for the exam docu
 
 ## Trade-offs
 
-JSON-file persistence was chosen because it is fast to explain and run during a timed exam without installing a database. It is acceptable for this local demo because writes are serialized and atomic, but SQLite or Postgres would be better for concurrent production traffic. The generated SVG cat visuals avoid broken external image links and licensing issues, but real shelter photos would make the product feel richer if there were more time and proper image permissions.
+JSON-file persistence was chosen because it is fast to explain and run during a timed exam without installing a database. It is acceptable for this local demo because writes are serialized and atomic, but SQLite or Postgres would be better for concurrent production traffic. The real cat photos make the product feel more natural than generated placeholders, with the trade-off that the demo needs internet access for the external image URLs.
 
 ## Known Issues
 
 - The app is intended for local demo use on one Node process.
 - The results refresh on vote, tab switch, manual refresh, and polling while results-style views are open, not through websockets.
-- The generated visuals are deterministic placeholders rather than real cat photography.
+- Cat photos are loaded from CATAAS at runtime, so an offline demo would need downloaded local copies.
