@@ -6,12 +6,13 @@ Cat Match Swipe is a mobile-first swipe-to-vote app for choosing adoptable cat p
 
 ```bash
 npm run seed
+npm run cache-images
 npm start
 ```
 
 Open `http://localhost:5173`.
 
-The app requires Node 20 or newer and has no external npm dependencies. It uses Node's built-in HTTP server, file system APIs, and a vanilla HTML/CSS/JavaScript frontend. If port 5173 is already in use, run with another port, for example `PORT=5180 npm start`.
+The app requires Node 20 or newer and has no external npm dependencies. It uses Node's built-in HTTP server, file system APIs, and a vanilla HTML/CSS/JavaScript frontend. The submitted repo already includes the cached cat photos under `public/images/cats/`, so `npm run cache-images` is only needed after reseeding or replacing the image fixture. If port 5173 is already in use, run with another port, for example `PORT=5180 npm start`.
 
 To add a new profile without changing code:
 
@@ -28,7 +29,7 @@ The backend is `server.js`. It keeps the source of truth in `data/votes.json`, w
 ## Completed Requirements
 
 - 100 distinct cat profiles seeded by `scripts/seed.js`
-- Real cat photo URL for every profile
+- Real locally served cat photo for every profile
 - Swipe-card UI with left/no, right/yes, card tilt, color hint, and smooth transitions
 - Tap buttons for yes and no
 - Downward swipe or tab opens results
@@ -41,7 +42,7 @@ The backend is `server.js`. It keeps the source of truth in `data/votes.json`, w
 
 ## Image Credits
 
-All seeded cat photos come from [CATAAS: Cat as a Service](https://cataas.com). The fixture stores the CATAAS photo id for each item in `externalPhotoId`, uses stable `https://cataas.com/cat/:id` image URLs, and displays `Photo: CATAAS` in the app. New items can use either a CATAAS photo id or a fully qualified image URL; user-provided URLs should be credited to their original source before submission.
+All seeded cat photos come from [CATAAS: Cat as a Service](https://cataas.com). The fixture stores the CATAAS photo id for each item in `externalPhotoId`, keeps the original source URL in `remoteImage`, serves cached copies from `public/images/cats/`, and displays `Photo: CATAAS` in the app. New items can use either a CATAAS photo id or a fully qualified image URL; user-provided URLs should be credited to their original source before submission.
 
 ## Screenshots
 
@@ -53,10 +54,10 @@ The `screenshots/` folder contains three 390 x 844 screenshots for the exam docu
 
 ## Trade-offs
 
-JSON-file persistence was chosen because it is fast to explain and run during a timed exam without installing a database. It is acceptable for this local demo because writes are serialized and atomic, but SQLite or Postgres would be better for concurrent production traffic. The real cat photos make the product feel more natural than generated placeholders, with the trade-off that the demo needs internet access for the external image URLs.
+JSON-file persistence was chosen because it is fast to explain and run during a timed exam without installing a database. It is acceptable for this local demo because writes are serialized and atomic, but SQLite or Postgres would be better for concurrent production traffic. The real cat photos make the product feel more natural than generated placeholders; caching them locally avoids broken images during a live demo.
 
 ## Known Issues
 
 - The app is intended for local demo use on one Node process.
 - The results refresh on vote, tab switch, manual refresh, and polling while results-style views are open, not through websockets.
-- Cat photos are loaded from CATAAS at runtime, so an offline demo would need downloaded local copies.
+- If the image fixture is changed, rerun `npm run cache-images` while online before demoing offline.

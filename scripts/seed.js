@@ -152,6 +152,25 @@ const photoIds = [
   "37guCJ2aCCt3m360"
 ];
 
+const pngPhotoIds = new Set([
+  "0GC9MRUAqxhBzPyA",
+  "0M0Lo3dsYft79xNd",
+  "0RU7ZkgzyvWv8UJG",
+  "0ycVeWWOWgDcGsYC",
+  "1DvnD0NaGHwHMoml",
+  "1gROXVBHMQ8nLxCQ",
+  "1KSwqj0a2mTz5ZrF",
+  "1Y7TMLfxRN6HmCv0",
+  "22aAuf1dsGT4uSOi",
+  "299YJTAQz9R6cfGP",
+  "2ChLbdjUjjwehaHV",
+  "2e0FOizQ3iNfwgMh",
+  "2gakTsWOt6sq3pqS",
+  "2LTXz5STKmTHCESu",
+  "2PhQ92iE2EVNF0ot",
+  "2VcSUtyyFnm45353"
+]);
+
 const items = [];
 let serial = 1;
 
@@ -163,14 +182,16 @@ for (const [mood, moodDescription] of moods) {
   for (const [name, breed, catDescription] of cats) {
     const id = `cat-${String(serial).padStart(3, "0")}`;
     const photoId = photoIds[serial - 1];
+    const extension = pngPhotoIds.has(photoId) ? "png" : "jpg";
     items.push({
       id,
       name: `${name} the ${mood} Cat`,
       category: breed,
       description: `${catDescription} ${moodDescription}`,
-      image: `https://cataas.com/cat/${photoId}?width=900&height=700`,
+      image: `/images/cats/${id}.${extension}`,
       imageCredit: "CATAAS",
       imageSource: "https://cataas.com",
+      remoteImage: `https://cataas.com/cat/${photoId}`,
       externalPhotoId: photoId,
       accent: accents[(serial - 1) % accents.length]
     });

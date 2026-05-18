@@ -5,6 +5,7 @@
   "description": "Mobile-first cat swipe-to-vote web app for CMPE 285 final question 10.",
   "scripts": {
     "add-item": "node scripts/add-item.js",
+    "cache-images": "node scripts/cache-images.js",
     "seed": "node scripts/seed.js",
     "start": "node server.js"
   },
