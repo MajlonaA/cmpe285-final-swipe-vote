@@ -20,6 +20,8 @@ To add a new profile without changing code:
 npm run add-item -- "Nova the Curious Cat" "Domestic Shorthair" "A gentle explorer who likes shelves and string toys." "04eEQhDfAL8l5nt3" "#0f766e"
 ```
 
+The add-item script accepts either a CATAAS photo id or a full image URL, downloads the image into `public/images/cats/`, appends the item to `data/items.json`, and preserves the image source credit.
+
 ## Architecture
 
 The frontend is a single mobile web page in `public/`. It fetches the deck from `GET /api/items`, records a swipe with `POST /api/vote`, removes the previous vote with `DELETE /api/vote`, and renders aggregate data from `GET /api/results`. The server also supports the brief-style aliases `GET /items`, `POST /vote`, and `GET /results`. A session id is stored in the browser only to identify the anonymous voter; vote totals are not sourced from localStorage.
@@ -39,6 +41,15 @@ The backend is `server.js`. It keeps the source of truth in `data/votes.json`, w
 - Idempotent vote deduplication by anonymous session and item
 - End-of-deck state
 - Stretch: anonymous user identity, undo last swipe, matches view, polling-based results refresh, seed/admin scripts, and basic analytics
+
+## Stretch Goals
+
+- User identity: anonymous browser session id is saved in `localStorage`, and the backend uses it to remember a user's own votes across reloads.
+- Undo last swipe: the **Undo** button removes the most recent vote through `DELETE /api/vote` and returns that card to the deck.
+- Matches view: the **Matches** tab shows items where the current user voted yes and the global yes-rate is at least 70%.
+- Real-time updating: results and matches refresh after votes, on tab switch, by the refresh button, and by polling while result-style views are open.
+- Admin or seed script: `npm run seed` rebuilds the 100-item fixture; `npm run add-item -- ...` appends a new cached-photo item without code changes.
+- Basic analytics: the backend tracks total swipes, anonymous sessions, and average decision time, and the results view displays those metrics.
 
 ## Image Credits
 
