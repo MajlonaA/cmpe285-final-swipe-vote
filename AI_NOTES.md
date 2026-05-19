@@ -8,4 +8,4 @@ One place I had to revisit and change was images: the first version depended on 
 
 Codex did better than expected at creating a complete vertical slice: seed data, API, swipe interaction, results, stretch-goal support, real image attribution, cached images, and README all stayed consistent. It did worse at knowing my exact visual preference without direction, so I reviewed the UI and kept it focused on a clean mobile cat-matching experience rather than a generic template. I also had to test multiple times to ensure it meets all the requirements.
 
-I verified the app by running the local server, checking the API endpoints, confirming repeat votes from one session do not double-count, and reviewing the mobile viewport. For the demo, I should be ready to explain the endpoint design, vote deduplication, persistence choice, real cat photo source credits, gesture logic, and why JSON-file storage is acceptable for a local timed assessment but not a production voting system.
+I verified the app by running the local server, checking the API endpoints, confirming repeat votes from one session do not double-count, and reviewing the mobile viewport. 
